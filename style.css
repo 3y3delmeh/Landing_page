@@ -4,86 +4,79 @@
 
 body{
     display: flex;
-    justify-content: center;
     flex-direction: column;
     margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
-img{
-    width: 500px;
-    height: 350px;
-}
-
-.header{
+#header-container{
     background-color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
-}   
+    position: sticky;
+}
 
-/* .header h2 {
-    color: #F9FAf8;
-    padding: 10px 150px ;
-
-    font-size: 24px;
-} */
- a.logo{
-    font-weight: 900;
-   margin: 0;
+.nav{
+    display: flex;
+    justify-content: center;
  }
-ul {
+ .nav ul{
     list-style-type: none;
     display: flex;
     gap: 16px;
-    padding: 10px 150px;
-    justify-content: flex-end;
-    
-}
+ }
 
-a{
+ .nav a{
     text-decoration: none;
-    color: white;
-   
+    color: #E5E7EB;
+    
+ }
+
+ .logo{
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 24px;
+    flex-basis: 45rem;
+    font-weight: 700;
 }
 
-.page-hero-container{
+.page-hero-photo {
+    margin-left: 60px;
+    width: 100%;
+    height: 260px;
+    align-self: center;
+}
+
+#page-container{
     background-color: #1f2937;
+    padding: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 40px;
-    padding: 100px 0 100px 0;
- }
-
- .page-hero{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    
- }
-
-.signup{
-    align-self: flex-start;
-
 }
- .page-hero-photo img{
-    
-    width: 600px;
-    height: 300px;
-  
-    margin: auto;
- }
 
+.page-hero{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-basis: 72rem;
+}
 
- .page-hero h1{
-    color: #F9FAf8;
+.page-hero-items h1{
+    color: #F9FAF8;
     font-size: 48px;
-    font-weight: bolder;
- }
-
- .page-hero p{
-    color: #E5E7EB;
+    font-weight: 900;
+    margin-top:-15px;
+}
+.page-hero-items p{
+    align-self: flex-start;
+    text-align: left;
     font-size: 18px;
+    color: #E5E7EB;
+    margin-top: -40px;
+}
+.page-hero-items button{
+    
+    align-self: flex-start;
 }
