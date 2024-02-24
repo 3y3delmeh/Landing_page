@@ -24,7 +24,7 @@ body{
  .nav ul{
     list-style-type: none;
     display: flex;
-    gap: 16px;
+    gap: 26px;
  }
 
  .nav a{
@@ -37,7 +37,7 @@ body{
     text-decoration: none;
     color: #F9FAF8;
     font-size: 24px;
-    flex-basis: 45rem;
+    flex-basis: 57rem;
     font-weight: 700;
 }
 
@@ -59,6 +59,8 @@ body{
 .page-hero{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     flex-basis: 72rem;
 }
@@ -78,5 +80,133 @@ body{
 }
 .page-hero-items button{
     
-    align-self: flex-start;
+    align-self: flex-end;
+}
+
+.signup{
+    background-color: #3882f6;
+    padding: 8px 25px;
+    color: #F9FAF8;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+}
+#info-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.info-photos{
+  width: 200px;
+ height: 160px;
+}
+
+.title-top{
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+.info-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+
+#quote-box{
+    background-color: #e5e7eb;
+
+    padding: 30px;
+}
+
+.quote-container{
+    display: flex;
+    justify-content: center;
+
+ 
+
+}
+
+.quote-items{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-basis: 50rem;
+    padding: 80px;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    text-align: justify;
+}
+ .author-quote{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 450px;
+    margin-top: -30px;
+    padding-top: 0;
+}
+
+
+.action-container{
+
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+.action{
+    background-color:#3882f6;
+    padding: 25px 190px;
+    border-radius: 10px;
+    
+
+}
+
+.action-button{
+    align-self: center;
+    background-color: transparent;
+    border: solid white 2px;
+    border-radius: 5px;
+    padding: 5px 25px;
+    color: #F9FAF8;
+    font-weight: 700;
+    margin-left: 100px;
+    
+    
+}
+
+.action p{
+    margin-top: -15px;
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-items{
+    color: #F9FAF8
+}
+footer{
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 30px;
+    text-align: center;
 }
